@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASA API Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8d7dd1faf6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" class="sticky">
+        <script src="app.js"></script>
+        <label for="logo" class="logo">Space Things</label>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="blogs.html" class="active">Blogs</a></li>
+          <li><a href="designs.html">Designs</a></li>
+          <li><a href="data-vis.html">Data Visualisations</a></li>
+          <li><a href="data-art.html">Data Art</a></li>
+        </ul>
+        <label id="icon">
+          <i class="fas fa-bars"></i>
+        </label>
+      </nav>
+    </header>
+
+    <main>
+      <h1>My Blog Posts</h1>
+      <p id="intro">
+        Welcome to the blog page! Below you will find blog post one which
+        discusses data visualisations on what it is and how it works. Alongside
+        it you will find blog post two which critically reflects on the UI/UX of
+        my website explaining what I did wrong and what I did right.
+      </p>
+
+      <section class="cont">
+        <article class="cont-col-1">
+          <p>
+            In the discussion below, I will be analysing what data visualisation
+            is as well as the important role it serves in a society with
+            developing technology that is constantly improving...
+          </p>
+          <a href="#click-me" class="button">READ MORE</a>
+        </article>
+
+        <article class="cont-col-2">
+          <p>
+            User interface and user experience are vital components when
+            designing a website. Websites are platforms that are meant to be
+            engaged with and should effectively inform...
+          </p>
+          <a href="#open-me" class="button2">READ MORE</a>
+        </article>
+      </section>
+      <article class="Blogposts">
+        <h2 id="click-me">My Blog Post One</h2>
+        <p id="post">
+          Introduction: In the discussion below, I will be analysing what data
+          visualisation is as well as the important role it serves in a society
+          with developing technology that is constantly improving.
+        </p>
+
+        <p id="post">
+          What is data visualisation? The reading ‘Overview of Data
+          Visualisation’ by Li states several varying definitions of data
+          visualisation showcasing that it is a broad term. My understanding of
+          the reading has led me to realise that data visualisation is when data
+          is taken and reproduced into some type of visual form so that the
+          receivers of the data may truly understand what the data represents
+          thereby increasing cognition. (Li 2020: 18-19) The representation of
+          data visually simplifies it for the reader by decreasing the
+          overbearing load of information that they would have had to struggle
+          to understand if it was not done in a visual manner/form. Not only
+          does this increase readability but it also enhances understanding and
+          accessibility of the data. Data visualisation makes use of visual
+          elements like tables, charts, graphs, and maps to convey data in a way
+          that makes the information clear and effective in what it represents
+          so that the reader may gain insight and identify patterns within the
+          data. Data visualisation is highly significant in a number of fields
+          like science, academia, business and many more showing its popularity
+          in differing industries. (Li 2020: 18-19) What are the two types of
+          data visualisation? Data visualisation branches into two types or
+          fields namely information visualisation and scientific visualisation.
+          These may be two types of data visualisation, but they still convert
+          ‘’data into a visual form’’ so that the information being presented
+          becomes understandable increasing the knowledge and insight gained
+          from engaging with them. (Li 2020: 19) Information visualisation
+          represents abstract data or knowledge in a visual form so that users
+          gain a deeper understanding of it as well as can determine common
+          patterns within the data thereby assisting them in making informed
+          decisions using the data. Information data can be represented in
+          several ways like tree maps, scatter plots, and tree diagrams. In
+          information visualisation the content of the data should always be
+          considered before deciding how to best represent it visually. This is
+          so that the data becomes more effective and clearer for users.
+          Scientific visualisation represents scientific data which usually
+          centres around physicality like the human body. This type of
+          visualisation is very important in validating scientific hypotheses as
+          well as assisting people in communicating their ideas/findings more
+          effectively. “Simulations, waveforms, or volume” are the ways in which
+          scientific visualisation can be represented and these are usually done
+          using 3D modelling. The reason for discussing the two fields of data
+          visualisation was to show that it is a very flexible and broad term as
+          it is used in two ways to represent data of two entirely different
+          topics showing its capabilities in a range of fields. (Li 2020: 19-22)
+          The importance of data visualisation and choosing the right form: From
+          the above discussion it can be noted that data visualisation plays an
+          important role in many fields in representing data so that users can
+          easily grasp the concepts, patterns, and information that the data is
+          addressing and providing. Data being visually appealing referring to
+          how concise, and readable it is, heightens the retrieval of
+          information as well as the impact it has on its users. This means that
+          a larger group of users can understand what they are engaging with.
+          Data can most definitely be represented as it is but that would
+          increase difficulty, and indecisiveness of what the data is
+          representing as well as creating an overbearing amount of information
+          that the user will have to rummage through to understand what is
+          happening. This can repel users and create more confusion than
+          insight. Data visualisation is all about making information
+          accessible, readable, and concise so that user’s cognition and
+          understanding is enhanced. It is just as important to know what forms
+          of data visualisation can be used for certain types of data as this
+          also impacts how the data is received and read. Some of the forms of
+          data visualisation include trees, maps, scatter plots, and charts.
+          Each one more suitable for a specific kind of data. For example, trees
+          are used to represent a hierarchical structure in data with its
+          branches usually representing relationships that exist within the
+          data. Alternatively, charts are useful in representing quantitative
+          data like size and numbers. (Li 2020: 19-29)
+        </p>
+        <p id="post">
+          Conclusion: Throughout the discussion, data visualisation has become a
+          common concept as well as a significant one. The role it plays in
+          creating data that is more accessible, visually stimulating, and
+          easier to understand explains why it is so popular in several fields
+          like business, science, journalism and more. Data visualisation
+          communicates information drastically better between not only scholars
+          but the public as well, ensuring that the people who need to know
+          about the information and the people who want to know about the
+          information are both equally aware of what the data is representing. A
+          bonus aspect of data visualisation is that it allows for information
+          to be visually pleasing to the human eye. This aspect assists people
+          in grasping the concepts being displayed by the data while making it
+          effortless to remember as people are drawn to what is visually
+          pleasing. It can be compared to a person who retains information more
+          successfully when studying through the use of visual stimuli like
+          colour or little annotations because in both cases the visual aspect
+          embeds the information while simplifying it when it is being
+          processed.
+        </p>
+
+        <blockquote>
+          "Across the sea of space, the stars are other suns."
+        </blockquote>
+
+        <h3 id="open-me">My Blog Post Two</h3>
+        <p id="post2">
+          Introduction: User interface and user experience are vital components
+          when designing a website. Websites are platforms that are meant to be
+          engaged with and should effectively inform the user about the main
+          goals that the website should be serving. Therefore, it is necessary
+          to keep the users who will be interacting with the website in mind
+          when designing and building them. This will always allow a designer to
+          remain consistent to the experience they want their user to have when
+          traversing their website. In this blog post I will be critically
+          analysing my own website to decipher where I succeeded and failed in
+          the UI/UX aspects of my design.
+        </p>
+        <p id="post2">
+          What is UI/UX design: What is UI design? UI stands for user interface
+          design. This term is usually used interchangeably with user experience
+          although they are completely different aspects that work
+          simultaneously to create a cohesive website. UI design refers to the
+          visual layout and interactive elements of a website that a user will
+          have to engage with so that they may use the website to its full
+          potential. (Lamprecht, 2023) It focuses on the feel and interactivity
+          of a website ensuring that the product is as intuitive as possible.
+          Therefore, each decision whether visual or interactive needs to be
+          carefully considered because this will heighten the user experience.
+          Examples of user interface include the colour scheme, imagery, spacing
+          and responsive design. (Lamprecht, 2023) What is UX design? UX stands
+          for user experience. This aspect of design follows suit of UI as it is
+          a direct result/impact of how successfully the user interface was
+          created. The user experience refers to the “interaction between the
+          user and the product”, in this case a website. (Lamprecht, 2023) It
+          encompasses all reactions, emotions, and satisfaction the interaction
+          with the product/service evokes in the user. User experience design
+          ensures that all the required elements to create a good user
+          experience is present in the product/service. UX design aims to create
+          products/services that are in alignment with the user’s goals and
+          needs to create for a meaningful experience. (Lamprecht, 2023)
+          Analysis of my website using UI/UX design principles: The website that
+          I created for my first assignment was space themed because I am using
+          a NASA API for the data visualization section of my website.
+          Therefore, I thought reiterating the space theme throughout the
+          website would reinforce the content behind the data visualization and
+          users would not be confused when they reached that section of my
+          website. The homepage: For the homepage of my website, I decided to
+          implement a slideshow aspect because it would be easier and more
+          efficient to navigate for the users rather than scrolling down through
+          an overwhelming amount of content and information just to learn more
+          about my website and each page. This excess information would increase
+          cognitive load for the users causing their attention to stray because
+          there would be too much information and content to process before they
+          even venture through the other pages. Therefore, by using a slideshow
+          with different space related images and providing a brief description
+          of each page the cognitive load on the user is reduced and the
+          navigation is more efficient as it allows the user to travel to the
+          other pages that are more significant at a faster pace. The colours
+          and backgrounds used on each page are the same to create a cohesive
+          look throughout. This helps reinforce the idea that the website is one
+          and that the content is all related by creating familiarity. I
+          included a page number component so that when the user is navigating
+          the slideshow, they are aware of what slide they are on. This allows
+          the user to know where they currently are. (Singh, 2022)
+        </p>
+        <p id="post2">
+          The Blog Page: The blog page consists of a very simple layout. As soon
+          as the user enters the space they are presented with the blogs. This
+          simple layout allows the user to receive the information that is
+          necessary without having to go on a search for the blog they wish to
+          read. This is an example of good UI because I have reduced the amount
+          of work the user has to do to find my blogs. This means they can spend
+          more time reading and understanding what my blogs are conveying.
+          However, the font and colour of the font that I used appear to be
+          difficult to read which would make the user strain their eyes just to
+          decipher each word, therefore frustrating the user as they are
+          requiring more effort to read the words than they need to. This
+          decision could push the user to ignoring the content of the blogs
+          altogether. The colour and style of the blocks that contain my blogs
+          are the same to communicate to the user that what they are engaging
+          with are blogs and not other types of written works. This helps the
+          user avoid confusion by providing clarity that the elements on the
+          page are similar. (Singh, 2022) The Design Page: The design page
+          layout was designed with most important aspect being placed first
+          which are the wireframes. This is the first aspect on the page as it
+          allows the users to understand each visual and interactive decision I
+          made for each page and why. This would equip the user with a better
+          understanding of how to navigate each page as well as what they should
+          pay attention to. When the user hovers over the wireframes they get
+          highlighted which is good UI because it provides feedback to the user
+          that they should click the image. If this was not highlighted the user
+          may not have known, they could do so hindering their ability to view
+          the wireframes at an enlarged ratio. The spacing between the elements
+          on the page is good UI because it allows the user to differentiate
+          between each element as well as know that each element represents a
+          different part of the page. Therefore, the user does not have to use a
+          lot of energy in determining what elements go together and if they are
+          separate or a whole. This allows the user to effectively navigate
+          through the design page knowing what they are consuming at each stage.
+          (Singh, 2022)
+        </p>
+
+        <p id="post2">
+          Conclusion: From the above discussion, I still need to improve my UI
+          design elements to ensure for a better, meaningful user experience for
+          the users. The elements are sufficient, but they can be improved upon
+          so that the user experience is seamless and does not increase
+          cognitive load but rather decreases it.
+        </p>
+      </article>
+    </main>
+  </body>
+
+  <footer>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, corporis?
+    Consequuntur, ullam sapiente! Molestiae atque doloremque expedita
+    voluptatibus illo quibusdam commodi quod iusto minima sapiente architecto
+    perspiciatis, aperiam impedit earum.
+  </footer>
+</html>
